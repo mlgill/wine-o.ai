@@ -1,0 +1,226 @@
+name: scienv2
+channels:
+- mlgill
+- anaconda
+- conda-forge
+- defaults
+- r
+- asmeurer
+- xonsh
+dependencies:
+- anaconda::_nb_ext_conf=0.3.0=py27_0
+- anaconda::anaconda-client=1.5.1=py27_0
+- anaconda::backports=1.0=py27_0
+- anaconda::backports_abc=0.4=py27_0
+- anaconda::beautifulsoup4=4.5.1=py27_0
+- anaconda::cairo=1.12.18=6
+- anaconda::clyent=1.2.2=py27_0
+- anaconda::configparser=3.5.0=py27_0
+- anaconda::cycler=0.10.0=py27_0
+- anaconda::decorator=4.0.10=py27_0
+- anaconda::dill=0.2.5=py27_0
+- anaconda::entrypoints=0.2.2=py27_0
+- anaconda::fontconfig=2.11.1=6
+- anaconda::freetype=2.5.5=1
+- anaconda::functools32=3.2.3.2=py27_0
+- anaconda::get_terminal_size=1.0.0=py27_0
+- anaconda::glib=2.43.0=1
+- anaconda::h5py=2.6.0=np111py27_2
+- anaconda::harfbuzz=0.9.39=1
+- anaconda::hdf5=1.8.17=1
+- anaconda::html5lib=0.999=py27_0
+- anaconda::ipykernel=4.4.1=py27_0
+- anaconda::ipython=5.1.0=py27_0
+- anaconda::ipython_genutils=0.1.0=py27_0
+- anaconda::ipywidgets=5.2.2=py27_0
+- anaconda::jbig=2.1=0
+- anaconda::jinja2=2.8=py27_1
+- anaconda::jsonschema=2.5.1=py27_0
+- anaconda::jupyter=1.0.0=py27_3
+- anaconda::jupyter_client=4.3.0=py27_0
+- anaconda::jupyter_console=5.0.0=py27_0
+- anaconda::jupyter_core=4.1.1=py27_0
+- anaconda::libffi=3.2.1=0
+- anaconda::libgfortran=3.0.0=1
+- anaconda::libpng=1.6.22=0
+- anaconda::libpq=9.5.4=0
+- anaconda::libsodium=1.0.10=0
+- anaconda::libxml2=2.9.2=0
+- anaconda::libxslt=1.1.28=0
+- anaconda::lxml=3.6.4=py27_0
+- anaconda::markupsafe=0.23=py27_2
+- anaconda::matplotlib=1.5.1=np111py27_0
+- anaconda::mistune=0.7.2=py27_0
+- anaconda::mkl=11.3.3=0
+- anaconda::nb_anacondacloud=1.2.0=py27_0
+- anaconda::nb_conda=2.0.0=py27_0
+- anaconda::nb_conda_kernels=2.0.0=py27_0
+- anaconda::nbconvert=4.2.0=py27_0
+- anaconda::nbformat=4.1.0=py27_0
+- anaconda::nbpresent=3.0.2=py27_0
+- anaconda::notebook=4.2.2=py27_0
+- anaconda::numexpr=2.6.1=np111py27_0
+- anaconda::numpy=1.11.1=py27_0
+- anaconda::openssl=1.0.2h=1
+- anaconda::pandas=0.18.1=np111py27_0
+- anaconda::pango=1.39.0=1
+- anaconda::path.py=8.2.1=py27_0
+- anaconda::pathlib2=2.1.0=py27_0
+- anaconda::patsy=0.4.1=py27_0
+- anaconda::pexpect=4.0.1=py27_0
+- anaconda::pickleshare=0.7.3=py27_0
+- anaconda::pip=8.1.2=py27_0
+- anaconda::pixman=0.32.6=0
+- anaconda::prompt_toolkit=1.0.3=py27_0
+- anaconda::psutil=4.3.1=py27_0
+- anaconda::psycopg2=2.6.2=py27_0
+- anaconda::ptyprocess=0.5.1=py27_0
+- anaconda::pycairo=1.10.0=py27_0
+- anaconda::pygments=2.1.3=py27_0
+- anaconda::pymongo=3.3.0=py27_0
+- anaconda::pyparsing=2.1.4=py27_0
+- anaconda::pyqt=4.11.4=py27_4
+- anaconda::pytables=3.2.3.1=np111py27_0
+- anaconda::python=2.7.12=1
+- anaconda::python-dateutil=2.5.3=py27_0
+- anaconda::pytz=2016.6.1=py27_0
+- anaconda::pyyaml=3.11=py27_4
+- anaconda::pyzmq=15.4.0=py27_0
+- anaconda::qt=4.8.7=4
+- anaconda::qtconsole=4.2.1=py27_0
+- anaconda::readline=6.2=2
+- anaconda::redis=3.2.0=0
+- anaconda::redis-py=2.10.5=py27_0
+- anaconda::requests=2.11.1=py27_0
+- anaconda::scikit-learn=0.17.1=np111py27_2
+- anaconda::scipy=0.18.0=np111py27_0
+- anaconda::seaborn=0.7.1=py27_0
+- anaconda::setuptools=26.1.1=py27_0
+- anaconda::simplegeneric=0.8.1=py27_1
+- anaconda::singledispatch=3.4.0.3=py27_0
+- anaconda::sip=4.18=py27_0
+- anaconda::six=1.10.0=py27_0
+- anaconda::sqlalchemy=1.0.13=py27_0
+- anaconda::sqlite=3.13.0=0
+- anaconda::ssl_match_hostname=3.4.0.2=py27_1
+- anaconda::statsmodels=0.6.1=np111py27_1
+- anaconda::terminado=0.6=py27_0
+- anaconda::theano=0.5.0=np16py27_0
+- anaconda::tk=8.5.18=0
+- anaconda::tornado=4.4.1=py27_0
+- anaconda::traitlets=4.2.2=py27_0
+- anaconda::wheel=0.29.0=py27_0
+- anaconda::widgetsnbextension=1.2.6=py27_0
+- anaconda::yaml=0.1.6=0
+- anaconda::zeromq=4.1.4=0
+- anaconda::zlib=1.2.8=3
+- conda-forge::jasper=1.900.1=1
+- conda-forge::jpeg=9b=0
+- conda-forge::keras=1.0.7=py27_0
+- conda-forge::libtiff=4.0.6=6
+- conda-forge::opencv=2.4.12=np111py27_1
+- conda-forge::pillow=3.2.0=py27_1
+- conda-forge::protobuf=3.0.0b2=py27_0
+- conda-forge::scandir=1.3=py27_0
+- conda-forge::tensorflow=0.9.0=py27_0
+- conda-forge::xz=5.2.2=0
+- glemaitre::imbalanced-learn=0.1.8=py27_0
+- mlgill::fake-useragent=0.1.2=py27_0
+- mlgill::jupyter_cms=0.6.0=py27_0
+- mlgill::lightfm=1.9=py27_0
+- mlgill::multiprocess=0.70.4=py27_0
+- mlgill::selenium=2.48.0=py27_0
+- mlgill::spira=0.1=py27_0
+- mlgill::wcwidth=0.1.5=py27_0
+- mlgill::whoosh=2.7.4=py27_0
+- pip:
+  - anaconda-client==1.5.1
+  - backports-abc==0.4
+  - backports.shutil-get-terminal-size==1.0.0
+  - backports.ssl-match-hostname==3.4.0.2
+  - beautifulsoup4==4.5.1
+  - clyent==1.2.2
+  - configparser==3.5.0
+  - cycler==0.10.0
+  - decorator==4.0.10
+  - dill==0.2.5
+  - fake-useragent==0.1.2
+  - functools32==3.2.3.post2
+  - h5py==2.6.0
+  - html5lib==0.999
+  - imbalanced-learn==0.1.8
+  - ipykernel==4.4.1
+  - ipython==5.1.0
+  - ipython-genutils==0.1.0
+  - ipywidgets==5.2.2
+  - jinja2==2.8
+  - jsonschema==2.5.1
+  - jupyter==1.0.0
+  - jupyter-client==4.3.0
+  - jupyter-cms==0.6.0
+  - jupyter-console==5.0.0
+  - jupyter-core==4.1.1
+  - keras==1.0.7
+  - lightfm==1.9
+  - lxml==3.6.4
+  - markupsafe==0.23
+  - matplotlib==1.5.1
+  - mistune==0.7.2
+  - multiprocess==0.70.4
+  - nb-anacondacloud==1.2.0
+  - nb-conda==2.0.0
+  - nb-conda-kernels==2.0.0
+  - nbconvert==4.2.0
+  - nbformat==4.1.0
+  - nbpresent==3.0.2
+  - notebook==4.2.2
+  - numexpr==2.6.1
+  - numpy==1.11.1
+  - pandas==0.18.1
+  - path.py==0.0.0
+  - pathlib2==2.1.0
+  - patsy==0.4.1
+  - pexpect==4.0.1
+  - pickleshare==0.7.3
+  - pillow==3.2.0
+  - pip==8.1.2
+  - prompt-toolkit==1.0.3
+  - protobuf==3.0.0b2
+  - psutil==4.3.1
+  - psycopg2==2.6.2
+  - ptyprocess==0.5.1
+  - pycairo==1.10.0
+  - pygments==2.1.3
+  - pymongo==3.3.0
+  - pyparsing==2.1.4
+  - python-dateutil==2.5.3
+  - pytz==2016.6.1
+  - pyyaml==3.11
+  - pyzmq==15.4.0
+  - qtconsole==4.2.1
+  - redis==2.10.5
+  - requests==2.11.1
+  - scandir==1.3
+  - scikit-learn==0.17.1
+  - scipy==0.18.0
+  - seaborn==0.7.1
+  - selenium==2.48.0
+  - setuptools==26.1.1
+  - simplegeneric==0.8.1
+  - singledispatch==3.4.0.3
+  - six==1.10.0
+  - spira-0.1==git
+  - sqlalchemy==1.0.13
+  - statsmodels==0.6.1
+  - tables==3.2.3.1
+  - tensorflow==0.9.0
+  - terminado==0.6
+  - theano==0.5.0
+  - tornado==4.4.1
+  - traitlets==4.2.2
+  - wcwidth==0.1.5
+  - wheel==0.29.0
+  - whoosh==2.7.4
+  - widgetsnbextension==1.2.6
+prefix: /home/ubuntu/miniconda/envs/scienv2
+
