@@ -13,9 +13,9 @@ The project was presented on September 15, 2016 at Career Night. A [video](http:
 
 ## Application
 
-![](./figures/WINE-O_AI_SideBySide_MLGill.png)
-
 The application is not yet live, but you can sign-up on the [website](http://wine-o.ai) to receive a notification of when the website launches.
+
+![Coming Soon!](./figures/WINE-O_AI_SideBySide_MLGill.png)
 
 
 
