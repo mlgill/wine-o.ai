@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+
+<title>WINE-O.AI</title>
+<link rel="shortcut icon" href="./static/images/favicon.ico">
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="{{url_for('css_static', filename='style.css')}}">
+<link rel="stylesheet" href="{{url_for('css_static', filename='bootstrap.min.css')}}">
+<link rel="stylesheet" href="{{url_for('css_static', filename='custom.css')}}">
+
+
+</head>
+
+
+<body class="application">
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <img style="float:left!important;padding-left:2px!important;padding-right:8px!important;padding-top:5px!important;" src="./static/images/inverted_logo_small.png" alt=""/>
+      <a class="navbar-brand" style="font-family:Futura!important;color:white!important;" href="./">WINE-O.AI: Imbibe Intelligently</a>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top:150px!important;" class="container-fluid">
+<div id="droparea">
+	<p style="margin-top:10px!important;font-family:Futura!important;font-size:24px!important;">Select or Drop Your Wine Label</p>
+
+	<div id="previewsContainer">
+		<!-- <p>previewsContainer</p> -->
+    </div>
+
+    <div class="row">
+    <div style='font-family:Futura!important;float:left!important;margin-left:20px!important;' id="selectImage">Select Label</div>
+    <div style='font-family:Futura!important;' id="fileSubmit">Search</div>
+    </div>
+</div>
+</div>
+
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="js/dropzone.js"></script>
+<script type="text/javascript" src="{{url_for('js_static', filename='app.js')}}"></script>
+</body>
+</html>

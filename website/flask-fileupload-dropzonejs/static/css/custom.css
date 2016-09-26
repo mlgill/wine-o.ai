@@ -1,0 +1,139 @@
+#number-projects-nd {
+    font-size: 60px;
+}
+
+#total-donations-nd {
+    font-size: 60px;
+}
+
+.dc-chart g.row text {
+    fill: black;
+    font-size: 12px;
+}
+
+.navbar-brand {
+    font-size: 24px !important;
+    line-height: 26px !important;
+    font-weight: 100 !important;
+}
+
+.navbar-right {
+    .navbar-brand;
+    text-align: right;
+}
+
+.navbar-inverse {
+    background-color: #8A120A !important;
+    border-color: #8A120A !important;
+}
+
+.chart-title {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
+
+/*a {
+    color: #666666 !important;
+}*/
+
+small, .small {
+    font-size: 100% !important;
+}
+
+/*body.application div[class^="col-"] {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+body.application div[class^="col-"] div[class^="col-"] {
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}*/
+
+chart-stage h1 h2 h3 h4 h5 {
+  color: #666 !important;
+  /*font-size: 14px;*/
+  /*font-weight: 200;*/
+  padding: 7px 10px 4px;
+}
+
+#map {
+  background-color: #fff;
+  /*border: 1px solid #ccc;*/
+}
+
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+#countries, #states {
+  fill: #E0E0E0;
+  stroke: #fff;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+#countries .active, #states .active {
+  fill: #666666;
+}
+
+#cities {
+  stroke-width: 0;
+}
+
+.city {
+  fill: #8A120A;
+  stroke: #fff;
+}
+
+pre.prettyprint {
+  border: 1px solid #ccc;
+  margin-bottom: 0;
+  padding: 9.5px;
+}
+
+#droparea{
+  width: 400px;
+  min-height: 400px;
+  border-radius: 25px;
+  margin: 30px auto 0;
+  padding: 0 20px 20px 20px;
+  border: 4px dotted rgba(0, 82, 156, 0.8);
+}
+
+#previewsContainer {
+  min-width: 280px;
+  max-width: 280px;
+  min-height: 280px;
+  max-height: 280px;
+  padding: 10px 20px;
+  background: #FFF;
+  margin: 0 auto 20px 20px;
+}
+
+#selectImage {
+  color: #FFF;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+  margin: 0 30px;
+  padding: 10px 0;
+  background: rgba(0, 82, 156, 0.5);
+  float: left;
+  cursor: pointer;
+  font-size: 20px!important;
+}
+
+#fileSubmit {
+  color: #FFF;
+  border-radius: 10px;
+  width: 150px;
+  margin: 0 0 0 10px;
+  text-align: center;
+  padding: 10px 0;
+  background: rgba(0, 82, 156, 0.5);
+  float: left;
+  cursor: pointer;
+  font-size: 20px!important;
+}
