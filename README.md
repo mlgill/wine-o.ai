@@ -1,6 +1,11 @@
 # WINE-O.AI: Computer Vision Assisted Wine Recommendations
 
-by Michelle L. Gill, Ph.D.
+
+by Michelle L. Gill, Ph.D.  
+
+![](http://www.sharonkgilbert.com/wp-content/uploads/2015/12/Under-construction-1-150x150.png)
+**Under Construction, 2016/09/26**  
+Note: this repo is under clean-up and is currently missing a few notebooks. It will be updated to completeness within the week. This note will be delted when code clean-up is complete.
 
 ----------------------------
 
