@@ -13,14 +13,21 @@ This is the home of [WINE-O.AI](http://wine-o.ai), a computer vision-based wine 
 
 ## Presentation
 
-The project was presented on September 15, 2016 at Career Night. A [video](http://wineoai.michellelynngill.com/presentation/WINE-O_AI_MLGill.m4v) and [pdf](http://wineoai.michellelynngill.com/presentation/WINE-O_AI_MLGill.pdf) of the presentation slides is available.
+The project was presented on September 15, 2016 at Career Night. A [video](http://wineoai.michellelynngill.com/presentation/WINE-O_AI_MLGill.m4v) and [PDF](http://wineoai.michellelynngill.com/presentation/WINE-O_AI_MLGill.pdf) of the presentation slides is available.
 
 
 ## Application
 
 The application is not yet live, but you can sign-up on the [website](http://wine-o.ai) to receive a notification of when the website launches.
 
-![Coming Soon!](./figures/WINE-O_AI_SideBySide_MLGill.png)
+![**Coming Soon!**](./figures/WINE-O_AI_SideBySide_MLGill.png)
+
+## Repo Contents
+
+* **environment.yml**: list of conda python libraries that were used during analysis
+* **figures**: images used in the presentation
+* **notebooks**: Jupyter notebooks used for analysis
+* **presentation**: [PDF](http://wineoai.michellelynngill.com/presentation/WINE-O_AI_MLGill.pdf) and [video](http://wineoai.michellelynngill.com/presentation/WINE-O_AI_MLGill.m4v) versions of the presentation
 
 
 
