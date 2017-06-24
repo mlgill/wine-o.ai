@@ -2,12 +2,6 @@
 
 by Michelle L. Gill, Ph.D.  
 
-![](http://www.sharonkgilbert.com/wp-content/uploads/2015/12/Under-construction-1-150x150.png)  
-**Under Construction, 2016/09/26**  
-Note: this repo is under clean-up and is currently missing a few notebooks. It will be updated to completeness within the week. This note will be deleted when code clean-up is complete.
-
-----------------------------
-
 This is the home of [WINE-O.AI](http://wine-o.ai), a computer vision-based wine label search and recommendation application. This project was completed for my passion project at [Metis](http://thisismetis.com) Summer 2016 Data Science Bootcamp. WINE-O.AI uses computer vision, natural language processing, collaborative filtering, and D3 for visualization.
 
 ## Presentation
