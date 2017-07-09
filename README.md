@@ -8,10 +8,6 @@ This is the home of [WINE-O.AI](http://wine-o.ai), a computer vision-based wine 
 
 The project was presented on September 15, 2016 at Career Night. A [video](http://wineoai.michellelynngill.com/presentation/WINE-O_AI_MLGill.m4v) and [PDF](http://wineoai.michellelynngill.com/presentation/WINE-O_AI_MLGill.pdf) of the presentation slides is available.
 
-## Blog Post
-
-A blog post on [themodernscientist](http://themodernscientist.com) will be available the week of 2016/10/03. This text will be updated when the website is posted.
-
 
 ## Application
 
