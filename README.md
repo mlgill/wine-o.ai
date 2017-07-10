@@ -9,12 +9,12 @@ Under development, 07/10/2017
 ![](http://www.sharonkgilbert.com/wp-content/uploads/2015/12/Under-construction-1-150x150.png)  
 
 To do:  
--[ ] Add RANSAC functions
--[ ] Add Website code (fix responsive bugs)
--[ ] Recommender notebooks
--[ ] Clean data (again)
--[ ] Hook-up AWS instance to website
--[ ] Re-evaluate errors with cluster number and multiple labels
+- [ ] Add RANSAC functions
+- [ ] Add Website code (fix responsive bugs)
+- [ ] Recommender notebooks
+- [ ] Clean data (again)
+- [ ] Hook-up AWS instance to website
+- [ ] Re-evaluate errors with cluster number and multiple labels
 
 ## Presentation
 
