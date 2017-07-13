@@ -29,16 +29,15 @@ def feature_detect_extract(in_path, detector, extractor, width=320, eps=1e-7):
 
     # Get keypoints and descriptor
     kps = detector.detect(image)
-    (kps, descs) = extractor.compute(image, kps)
+    (kps, descriptors) = extractor.compute(image, kps)
     
     if len(kps) == 0:
         kps = []
-        descs = None
+        descriptors = None
         
     else:
-        # Hellinger kernel from http://www.pyimagesearch.com/2015/04/13/implementing-rootsift-in-python-and-opencv/
-        descs /= (descs.sum(axis=1, keepdims=True) + eps)
-        descs = np.sqrt(descs)
-        #descs /= (np.linalg.norm(descs, axis=1, ord=2) + eps)
+        # Hellinger kernel 
+        # see http://www.pyimagesearch.com/2015/04/13/implementing-rootsift-in-python-and-opencv/
+        descriptors /= np.sqrt(descriptors.sum(axis=1, keepdims=True) + eps)
 
-    return (kps, descs)
+    return (kps, descriptors)
